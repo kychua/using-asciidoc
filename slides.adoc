@@ -1,0 +1,126 @@
+= Using AsciiDocs & AsciiDoctor for easier documentation
+:author: Ka Yi
+:backend: dzslides
+:linkcss: true
+:dzslides-style: tomorrow
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+:dzslides-highlight: monokai
+//:syntax: no-highlight
+:imagesdir: images
+:source-highlighter: coderay
+
+== \\
+
+[quote, Anonymous programmer]
+____
+On a contract assignment, the owner of a small industrial control software company told me “We do not want our (end-user) documentation to be too clear. We make a lot of money doing training."
+____
+
+[NOTES]
+====
+Unfortunately, for most of us, we don't have users who are willing to pay for training. Instead, what happens is thats poorly written or worse, non-existent. 
+
+The same thing goes for developer guides as well. Without proper, updated cos, it is difficult for develoeprs to work on and improve your software - and that includes yourself, looking at code you wrote 6 months ago!
+====
+
+== \\
+
+[NOTES]
+====
+So clearly, having good documenetation is important. I'm sure we all know this already. 
+
+Yet, when it comes to writing documentation, this is what happens instead:
+====
+
+image::documentation_comic_1.jpg[height=500]
+
+[role="statement pull-right"]
+we procrastinate...
+
+[NOTES]
+====
+We procrastinate, be it updating the docs, or even writing them in the first place, because we find them boring, difficult or troublesome
+====
+
+== \\
+
+[NOTES]
+====
+so today, I want to introduce you a new tool for writing documentation (specifically, UG & DG): AsciiDoc & AsciiDoctor
+====
+
+[{statement}]
+Easier documentation with *AsciiDoc* & *Asciidoctor*
+
+== \\
+
+[{topic}]
+== Easy documentation
+
+[{stepwise}]
+* easy to *write* -> simple syntax
+* easy to *edit* -> version control
+* easy to *publish* -> conversion to other formats
+
+== \\
+
+[{topic}]
+== Markdown
+
+* designed for web pages
+* simple syntax
+* multiple flavours
+
+== \\
+
+[{topic}]
+== reStructuredText
+
+* designed for technical documentation
+* used in Python community
+* more features
+* extensible
+* semantic syntax
+
+== \\
+
+[{topic}]
+== AsciiDoc
+
+* designed for publishing
+* extensible
+* easy conversion to other formats
+
+== \\
+
+[{topic}]
+== Simple project pages
+
+* http://asciidoctor.org/docs/user-manual/#a-basic-comparison-by-example[Simple syntax]
+* More features:
+** automatic generation of table of contents
+** auto-numbering of sections & images
+
+== \\
+
+[{topic}]
+== More complex documentation
+
+* HTML: easy to convert, style & publish
+** Asciidoctor integration with Gradle, Maven, Ant
+** CSS stylesheets: templates available
+* other formats supported: PDF, DocBook, eBook, slides, custom backends
+* more features:
+** `include` files
+** custom blocks
+* extensible
+
+== \\
+
+[{topic}]
+== Acknowledgements
+
+* http://www.linfo.org/q_documentation.html
+* Presentation created based on: https://github.com/mojavelinux/decks
+* Cartoon taken from *Geek and Poke* (https://creativecommons.org/licenses/by/3.0/deed.en_US[Creative Commons License])
